@@ -68,9 +68,29 @@ body {
   margin-bottom: 4rem; }
 
 .sidebar {
-  background-color: #c69963;
+  background-color: #B28451;
   grid-column: sidebar-start / sidebar-end;
-  grid-row: 1 / -1; }
+  grid-row: 1 / -1;
+  display: flex;
+  justify-content: center; }
+  .sidebar__icon {
+    border: none;
+    border-radius: 0;
+    width: 4rem;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 4rem;
+    position: relative; }
+    .sidebar__icon::before, .sidebar__icon::after {
+      content: " ";
+      display: block;
+      background-color: #fff;
+      width: 4rem;
+      height: 2px; }
+    .sidebar__icon::after {
+      transform: translateY(1.5rem); }
+    .sidebar__icon::before {
+      transform: translateY(-1.5rem); }
 
 .header {
   background-color: #54483A;
