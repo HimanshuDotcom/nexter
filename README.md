@@ -12,7 +12,5 @@ Learn the power of CSS Grid by building this fully responsive website from scrat
 ![Mobile](https://github.com/HimanshuDotcom/nexter/blob/master/images/img3.png?raw=true)
    
   
-## Tech Stack
 
-**Client:** HTML, CSS, Javascript, Sass
 
